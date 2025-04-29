@@ -1,0 +1,95 @@
+body {
+        margin: auto;
+        background-color: #f7f7f7;
+}
+
+* {
+        text-decoration: none;
+        font-family: calibri;
+}
+
+.navbar {
+        background: #333;
+        border-radius: 0px 0px 10px 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+        box-shadow: 0px 7px 17px -6px rgba(0, 0, 0, 0.6);
+        -webkit-box-shadow: 0px 7px 17px -6px rgba(0, 0, 0, 0.6);
+        -moz-box-shadow: 0px 7px 17px -6px rgba(0, 0, 0, 0.6);
+        ;
+
+}
+
+.navdiv {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.logo {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 600;
+}
+
+li {
+        list-style: none;
+        display: inline-block;
+}
+
+li a {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 25px;
+}
+
+.li-navbar:hover {
+        background-color: #5f5e5e;
+        transition: .2s ease-in-out;
+        transition-delay: .3s;
+        border-radius: 8px;
+}
+
+.tentang {
+        background-color: #ffffff;
+        margin: 20px;
+        border: #ffffff solid;
+        border-radius: 30px;
+        padding: 20px 100px;
+        box-shadow: 0px 0px 25px 6px rgba(0, 0, 0, 0.21);
+        -webkit-box-shadow: 0px 0px 25px 6px rgba(0, 0, 0, 0.21);
+        -moz-box-shadow: 0px 0px 25px 6px rgba(0, 0, 0, 0.21);
+}
+
+.judultentang {
+        color: navy;
+        align-content: center;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+}
+
+.intro {}
+
+#intro {
+        color: #333;
+        font-size: 25px;
+        justify-items: left;
+        text-align: left;
+
+        .introname-color {
+                color: #000080;
+        }
+}
+
+
+.footer {
+        background-color: #333;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+}
